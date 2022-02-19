@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: black;
+    height: 831px;
+    width: 1648px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.layout{
+    background-color: gray;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "b0 b1 b2 b3"
+                         "b4 b5 b6 b7"
+                         "b8 b9 b10 b11"
+                         "b12 b13 b14 b15"
+                         "b16 b17 b18 b19";
+                         
+    padding: 15px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.layout img{
+    width: 30px;
+}
+
+.btn0{
+    grid-area: b0;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn1{
+    grid-area: b1;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn2{
+    grid-area: b2;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn3{
+    grid-area: b3;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn4{
+    grid-area: b4;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn5{
+    grid-area: b5;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn6{
+    grid-area: b6;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn7{
+    grid-area: b7;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn8{
+    grid-area: b8;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn9{
+    grid-area: b9;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn10{
+    grid-area: b10;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn11{
+    grid-area: b11;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn12{
+    grid-area: b12;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn13{
+    grid-area: b13;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn14{
+    grid-area: b14;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn15{
+    grid-area: b15;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn16{
+    grid-area: b16;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn17{
+    grid-area: b17;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn18{
+    grid-area: b18;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+.btn19{
+    grid-area: b19;
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
