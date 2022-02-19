@@ -130,3 +130,13 @@
 .btn19{
     grid-area: b19;
 }
+
+.res-container{
+    position: absolute;
+    top: 150px;
+    left: 530px;
+    width: 33%;
+    height: 6%;
+    border: 2px solid black;
+}
+
