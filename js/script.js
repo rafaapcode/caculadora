@@ -8,4 +8,13 @@ function insert(n){
         let num = res.text();
         res.text(num + n);
     }
-}   
+};
+
+function calc(){
+    let result1 = $("[key='resposta']").text();
+    if(result1){
+        $("[key='resposta']").text(eval(result1));
+    }else{
+        $("[key='resposta']").text("Faça uma operação !!")
+    }
+}
