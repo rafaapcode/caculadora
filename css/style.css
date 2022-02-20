@@ -4,7 +4,6 @@
 }
 
 .container{
-    /* background-color: black; */
     height: 831px;
     width: 1648px;
     display: flex;
@@ -42,6 +41,7 @@
     width: 100px;
     height: 100px;
     transition: .3s;
+    box-shadow: 1px 1px 10px black;
 }
 
 .btn:hover{
@@ -138,5 +138,6 @@
     width: 33%;
     height: 6%;
     border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
 }
 
